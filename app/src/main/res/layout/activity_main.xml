@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="30dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|top"
+    tools:context="com.baymax.udacity.project0.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/udacity_project_title"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:textColor="@color/c_2e3d49"/>
+
+    <Button
+        android:id="@+id/btn_project_movie"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="热门电影"
+        android:background="@color/c_2e3d49"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_project_block"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="股票雄鹰"
+        android:background="@color/c_2e3d49"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_project_reader"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="XYZ阅读器"
+        android:background="@color/c_2e3d49"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_project_news"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="最新闻"
+        android:background="@color/c_2e3d49"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_project_graduate"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="毕业设计"
+        android:background="@color/c_2e3d49"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>
